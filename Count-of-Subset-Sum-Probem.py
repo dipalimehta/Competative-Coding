@@ -1,5 +1,3 @@
-t = [[-1 for _ in range(summ+1)] for _ in range(n+1)]
-
 
 def cnt_subset_sum(arr,C,n):
     # Base cond
@@ -21,4 +19,7 @@ def cnt_subset_sum(arr,C,n):
 arr = [2,3,5,6,8,10]
 summ = 10
 n = len(arr)
+
+t = [[-1 for _ in range(summ+1)] for _ in range(n+1)]
+
 cnt_subset_sum(arr,summ,n)

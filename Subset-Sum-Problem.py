@@ -1,5 +1,4 @@
-# Initialization of table
-t = [[-1 for _ in range(C+1)] for _ in range(n+1) ]
+
 
 def subset_sum(arr,C,n):
     # Base cond
@@ -27,6 +26,10 @@ def subset_sum(arr,C,n):
 arr = [3, 34, 4, 12, 5, 2]
 C = 9 
 n = len(arr)
+
+# Initialization of table
+t = [[-1 for _ in range(C+1)] for _ in range(n+1) ]
+
 
 # Func call
 subset_sum(arr,C,n)

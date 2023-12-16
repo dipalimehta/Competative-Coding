@@ -1,4 +1,4 @@
-t = [[-1 for _ in range(C+1)] for _ in range(n+1)]
+
 
 def subset_sum(arr,C,n):
     # Base cond
@@ -32,6 +32,9 @@ def equal_sum_partition(arr,summ,n):
 arr = [1,5,11,5]
 n = len(arr)
 summ = sum(arr)
+
+t = [[-1 for _ in range(C+1)] for _ in range(n+1)]
+
 
 # Func call
 equal_sum_partition(arr,summ,n)
